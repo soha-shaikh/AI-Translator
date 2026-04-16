@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Azure Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🌍 Azure Translator</h1>
+
+  <div class="container">
+
+    <!-- API Config -->
+    <div class="card">
+      <input type="text" id="key" placeholder="🔑 Enter Azure API Key">
+      <input type="text" id="region" placeholder="🌐 Enter Region (e.g. eastus)">
+    </div>
+
+    <!-- Text Input -->
+    <div class="card">
+      <textarea id="textInput" rows="5" placeholder="✍️ Type text to translate..."></textarea>
+      <p class="label">OR upload a file below</p>
+    </div>
+
+    <!-- File Upload -->
+    <div class="card">
+      <input type="file" id="fileInput">
+    </div>
+
+    <!-- Language Selection -->
+    <div class="card">
+      <select id="fromLang">
+        <option value="en">🇺🇸 English</option>
+        <option value="hi">🇮🇳 Hindi</option>
+        <option value="fr">🇫🇷 French</option>
+        <option value="ja">🇯🇵 Japanese</option>
+        <option value="de">🇩🇪 German</option>
+      </select>
+
+      <select id="toLang">
+        <option value="hi">🇮🇳 Hindi</option>
+        <option value="en">🇺🇸 English</option>
+        <option value="fr">🇫🇷 French</option>
+        <option value="ja">🇯🇵 Japanese</option>
+        <option value="de">🇩🇪 German</option>
+      </select>
+    </div>
+
+    <!-- Button -->
+    <button onclick="translateText()">🚀 Translate</button>
+
+    <!-- Output -->
+    <div class="output" id="output">
+      Translation will appear here...
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
