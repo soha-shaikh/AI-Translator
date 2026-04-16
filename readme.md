@@ -35,8 +35,8 @@ I’m passionate about **web development, cloud technologies, and building creat
 
 ## 📫 Connect With Me
 
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-* 💼 LinkedIn: your-linkedin-profile
+* 📧 Email: shaikhsoha56@gmail.com
+* 💼 LinkedIn: linkedin.com/in/soha-shaikh-006928395
 * 🌐 Portfolio: your-website-link
 
 ---
